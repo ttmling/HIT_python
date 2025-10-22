@@ -1,0 +1,10 @@
+ho_ten = input("nhap ho va ten: ")
+tuoi = input("nhap tuoi: ")
+gioi_tinh = input("nhap gioi tinh: ")
+tinh_trang = input("nhap tinh trang hon nhan: ")
+
+print("\nthong tin ve nguoi ay la: ")
+print("ho va ten: {}".format(ho_ten))
+print("tuoi: {}".format(tuoi))
+print("gioi tinh: {}".format(gioi_tinh))
+print("tinh trang: {}".format(tinh_trang))
