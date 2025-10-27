@@ -24,5 +24,5 @@ for hocvien in range(1,n+1):
     dsach.append((hocvien, hoten, tong, xeploai))
 
 print("\n=====KẾT QUẢ=====")
-for hocvien in dsach:
-    print(hocvien[0], hocvien[1], hocvien[2], hocvien[3])
+for hv in dsach:
+    print(hv[0], hv[1], hv[2], hv[3])
