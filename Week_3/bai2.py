@@ -18,8 +18,6 @@ print(chuoi_chu_thuong)
 #Đếm số nguyên âm và phụ âm trong chuỗi (chỉ tính ký tự chữ)
 nguyen_am = "ueoai"
 chuoi_chu = "".join(chuoi_chu_thuong.split())
-tong_na = 0
-tong_pa = 0
 tong_na = sum(1 for char in chuoi_chu if char in nguyen_am)
 tong_pa = sum(1 for char in chuoi_chu if char not in nguyen_am)
 print(tong_na)
